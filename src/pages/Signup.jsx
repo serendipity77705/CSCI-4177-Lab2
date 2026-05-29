@@ -68,7 +68,7 @@ function CreateAccount() {
             {errors.confirmPassword && <span className="error">{errors.confirmPassword}</span>}
           </div>
 
-          <button type="submit" onClick={() => navigate('/dashboard')}>Create Account</button>
+          <button type="submit">Create Account</button>
         </form>
 
         <p id="redirect">Already have an account? <Link to="/signin" id="link">Sign in</Link></p>

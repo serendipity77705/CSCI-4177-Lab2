@@ -81,6 +81,10 @@ form {
     background-color: white;
 }
 
+.form-field {
+    background-color: white;
+}
+
 button {
     background-color: var(--blue);
     color: white;

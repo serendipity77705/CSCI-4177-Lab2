@@ -19,7 +19,6 @@ function Landing() {
           </nav>
         </div>
 
-        <section id="center">
           <div className="hero">
             <section className="launching">Launching in Halifax, Nova Scotia</section>
             <div className="statement">
@@ -52,7 +51,6 @@ function Landing() {
               <p>key issues and sentiment extracted from every review.</p>
             </div>
           </div>
-        </section>
       </div>
     </>
   )
