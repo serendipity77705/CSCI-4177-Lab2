@@ -94,7 +94,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 85vw;
+    width: 95vw;
 }
 
 .data {
@@ -154,12 +154,10 @@ body {
   background: white;
 }
 
-/* Dashboard container */
 .dashboard-container {
   padding: 0 48px 48px;
 }
 
-/* Controls */
 .controls {
   display: flex;
   gap: 12px;
@@ -183,14 +181,12 @@ body {
   border-color: var(--blue);
 }
 
-/* Grid */
 .apartments-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
-/* Card */
 .apartment-card {
   background: white;
   border-radius: 12px;
@@ -292,4 +288,8 @@ body {
 .star {
   font-size: 14px;
   background: transparent;
+}
+
+p {
+    background-color: var(--gray-background);
 }
